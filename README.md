@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deployed Site : 
 
-## Available Scripts
+## Author : Dina Alshboul
+## Version : 1.0.0
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+When visiting a new place you need to get coordinates for the place you want to visit. This web application enables you to do so, it is user friendly and easy to use. You just enter a city name and it will renders the coordinates for that city along side of a map to fully visualize the area.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+To build such web app follow the following steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create a new React App.
 
-### `npm test`
+Install axios library.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install Bootstrap library.
 
-### `npm run build`
+ get access to the API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+make components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Get back the data from the API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Style your web application.
 
-### `npm run eject`
+## Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This Web Application is built on React and Bootstrap and API.
+Axios library was used to ease the process of making a GET request.
+LocationIQ API was used to get the coordinates based on a user input.
+Netlify was used to deploy the page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Changing Log
+28-8-2022 11:00 pm - Application now has a fully-functional express server, with a GET route for the location resource.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Working Flow
+![Work flow](/src/images/workflowDesign%20lab6.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credit and Collaborations
+Abeer Alshboul my partiner We designed the working methodology and flow of data.
 
-## Learn More
+# Time Estimates
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Name of feature :  form (input ,button), ApI (GET request)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Estimate of time needed to complete : 4 hours
 
-### Code Splitting
+### Start time : 5pm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Finish time : 10:00pm
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Actual time needed to complete : 5 hours

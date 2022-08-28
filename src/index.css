@@ -1,4 +1,6 @@
 body {
+  background-color: blanchedalmond;
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +13,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ img{
+  border: radius 9px;
+  border: 1px solid #ddd;
+  width: 30%;
+ }
+
+ input[type=text] {
+  background-color:antiquewhite;
+  color:blue;
+  border: none;
+  border-bottom: 2px solid red;
+ margin-right: 40px;
+}
+
+button{
+  background-color:darksalmon;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1{
+  border:aquamarine;
+  color: crimson;
+}
+h3 {
+  border:aquamarine;
+  color: crimson;
+}
+p{
+  border:aquamarine;
+  color: crimson;
+
+}
+
+  
