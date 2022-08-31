@@ -1,7 +1,5 @@
 
-# Deployed Site : 
-
-## Author : Dina Alshboul
+# Author : Dina Alshboul
 ## Version : 1.0.0
 
 ## Overview
@@ -25,15 +23,17 @@ Get back the data from the API.
 
 Style your web application.
 
+
 ## Architecture
 
 This Web Application is built on React and Bootstrap and API.
 Axios library was used to ease the process of making a GET request.
 LocationIQ API was used to get the coordinates based on a user input.
 Netlify was used to deploy the page.
+an get the weather for 16 days and some images of movie.
 
 ## Changing Log
-28-8-2022 11:00 pm - Application now has a fully-functional express server, with a GET route for the location resource.
+31-8-2022 12:00 am - Application now has a fully-functional express server, with a GET route for the location resource.
 
 ## Working Flow
 ![Work flow](/src/images/workflowDesign%20lab6.jpg)
@@ -45,10 +45,10 @@ Abeer Alshboul my partiner We designed the working methodology and flow of data.
 
 ### Name of feature :  form (input ,button), ApI (GET request)
 
-### Estimate of time needed to complete : 4 hours
+### Estimate of time needed to complete : 10hours
 
-### Start time : 5pm
+### Start time : 2pm
 
-### Finish time : 10:00pm
+### Finish time : 12:00am
 
-### Actual time needed to complete : 5 hours
+### Actual time needed to complete : 12 hours

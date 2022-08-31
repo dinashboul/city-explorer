@@ -87,8 +87,8 @@ getMovieData = async (data) => {
           <h3> Display Name :{this.state.displayName}</h3>
           <p>LON :{this.state.lon}</p>
           <p>LAT :{this.state.lat}</p>
-          {/* <WeatherFile cityName={this.state.cityName}
-          /> */}
+          <WeatherFile cityName={this.state.cityName}
+          />
           <Movie movieData={this.state.movieData}/>
           {this.state.mapFlag && <img class="rounded" alt ="Map" src={`https://maps.locationiq.com/v3/staticmap?key=pk.25b28815b31c6ac5577db6cf23d0e1f5&center=${this.state.lat},${this.state.lon}`}></img>}
          {this.state.errFlag && <h4>Error :Unable to geocode</h4>}
