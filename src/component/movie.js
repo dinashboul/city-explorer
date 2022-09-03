@@ -7,8 +7,8 @@ class Movie extends React.Component {
     render(){
     return (
             
-        <Card className="card" style={{ width: "18rem"  }}>
-          <Card.Img className="img" variant="top" src={this.props.item.poster_path} />
+        <Card className="card" style={{ width: "18rem" ,display:"inline-block" }}>
+          
           <Card.Body>
             <Card.Title>{this.props.item.title}</Card.Title>
             <Card.Text>
